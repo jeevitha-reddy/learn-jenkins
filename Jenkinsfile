@@ -45,7 +45,7 @@ pipeline {
                 sh """
                     echo "Deploying...."
                     echo "$GREETING"
-                    sleep 10
+                   #sleep 10
                 """
             }
         }
